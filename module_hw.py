@@ -2,7 +2,7 @@ def another_test():
     print("This is a test!")
 
 def house_squared():
-    square_foot = []
+    square_foot = {}
     while True:
         prompt = input('Would you like to calculate the square footage of your house? y/n')
         while prompt.lower() == 'no' or 'n':
